@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Store</title>
+    <link rel="stylesheet" href="./user signup.css">
+</head>
+<body>
+
+    <!-- HEADER HTML.................................................................................... -->
+
+    <header class="header">
+        <div class="logo">
+            <img src="./images/Plus store logo/logo.jpeg" alt="App Store Logo">
+        </div>
+        <div class="app-name">
+            <h1>Plus Store</h1>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search for apps...">
+        </div>
+        <div class="auth-buttons">
+            <button class="sign-in" onclick="document.location='login.html'">Log in</button>
+            <button class="sign-up" onclick="document.location='user signup.html'">Sign Up</button>
+        </div>
+    </header>
+    
+    <button class="back-button" onclick="window.history.back()">&#8249;</button>
+    
+    <div class="signup-box">
+        <h1> Sign Up</h1>
+        <form action="createUser.php " method="POST">
+        <input type="text" name="fname" placeholder="First Name:">
+        <input type="text" name="lname" placeholder="Last Name:">
+        <input type="text" name="username" placeholder="User Name:">
+        <input type="email" name="email" placeholder="Email:">
+        <input type="password"  id="cnfirmpassword" placeholder="Password:" name="cpwd" required>
+        <button type="submit" class="signupbtn" name="submit" value="Sign_up">Sign up</button>
+        
+        <p>Already have an account ?<a href="#"> Login here</a></p>
+    </form>
+    </div>
+
+    
+    <footer>
+        <div class="footer">
+            <div class="left">
+                <button onclick="document.location='home.php'">Home</button>
+                <button onclick="document.location='apps.php'">Apps</button>
+                <button onclick="document.location='games.php'">Games</button>
+                <button onclick="document.location='movies.php'">Movies</button>
+                
+            </div>
+            <div class="right">
+                <button onclick="document.location='profile.php'">Profile</button>
+                <button onclick="document.location='developerView.php'">Developer Dashboard</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

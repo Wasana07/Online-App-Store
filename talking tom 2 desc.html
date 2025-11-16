@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Store</title>
+    <link rel="stylesheet" href="./talking tom 2 desc.css">
+    <link rel="stylesheet" href="./talking tom 2 main.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+           <img src="./images/Plus store logo/logo.jpeg" alt="App Store Logo">
+        </div>
+        <div class="app-name">
+            <h1>Plus Store</h1>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search for apps...">
+        </div>
+        <div class="auth-buttons">
+            <button class="sign-in" onclick="document.location='sign-in.html'">Sign In</button> 
+            <button class="sign-up" onclick="document.location='sign up.html'">Sign Up</button>
+        </div>
+    </header>
+    
+    <br>
+    <br>
+    <main>
+
+
+
+
+        <!-- App Details Section -->
+        <section class="app-details">
+        
+            <div class="app-meta">
+                <div class="app-image">
+                    <img src="./images/Game icons/talking tom.png" alt="App Icon">
+                </div>
+                <div class="rating-size">
+                    <div class="rating">Rating<br><span class ="rate">4.0</span> <span class="stars">★★★★☆</span></div>
+                    <div class="size">Size</span><br><span class="Asize">220</span><br><span class="mb">MB</span></div> 
+                </div>
+                <div class="name">My Talking Tom 2</div>
+                <button class="install-btn" onclick="document.location='https://play.google.com/store/apps/details?id=com.outfit7.mytalkingtom2&hl=en'">Install</button>
+                <button class="plus-btn">+</button>
+            </div>
+
+
+
+
+            <!-- Description Section -->
+            <div class="description">
+                <h3>Description</h3>
+                <p>The superstar virtual cat is going on the ultimate pet adventure, and with you, it's going to be more fun than ever! Your favorite funny friend is ready to dazzle you with his new wardrobe, amazing skills, and special features.
+
+                    What You Can Do:
+                    
+                    - Learn New Skills: Teach Tom cool tricks and skills like playing drums, basketball, and boxing. He'll be the most talented cat around!</p>
+            </div>
+        </section>
+        
+        <!-- Screenshots and Reviews Section -->
+        <section class="cmnt-section">
+
+
+            <!-- Ratings and Reviews Section -->
+            <div class="addcmnt">
+                <h3>Add Comment :</h3>
+                <div>
+                    <form action="#" method="POST">
+                        <br>
+                        <span>App Name : </span>
+                        <input type="text" name="userName" class="username_r">
+                        <br><br>
+                        <span>Comment : </span> <br><br>
+                        <textarea name="review" cols="70" rows="10" id=""></textarea><br><br>
+                        <button class="cmnt-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+
+            <!-- Screenshots Section -->
+            <div class="cmnt-list">
+                <h3>All Comments :</h3>
+                <div class="slideshow-container">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="left">
+                <button onclick="document.location='home.html'">Home</button>
+                <button onclick="document.location='apps.html'">Apps</button>
+                <button onclick="document.location='games.html'">Games</button>
+                <button onclick="document.location='movies.html'">Movies</button>
+            </div>
+            <div class="right">
+                <button onclick="document.location='profile.html'">Profile</button>
+                <button onclick="document.location='Settings.html'">Settings</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

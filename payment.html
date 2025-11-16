@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Store</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+
+    <!-- HEADER HTML.................................................................................... -->
+
+    <header class="header">
+        <div class="logo">
+            <img src="./images/Plus store logo/logo.jpeg" alt="App Store Logo">
+        </div>
+        <div class="app-name">
+            <h1>Plus Store</h1>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search for apps...">
+        </div>
+        <div class="auth-buttons">
+            <button class="sign-in" onclick="document.location='sign-in.html'">Sign In</button>
+            <button class="sign-up" onclick="document.location='sign up.html'">Sign Up</button>
+        </div>
+    </header>
+    
+    
+    <div class="content">
+     
+        <h1>Payment Information</h1>
+     
+
+     <!-- add a logo-->
+    
+      <div class="cards">
+        <img src="./images/payment icons/visa.jpg" width="50" height="50" alt="VISA logo" class="download"> 
+        <img src="./images/payment icons/mastercard.jpg" width="50" height="50" alt="Master Card logo" class="images">
+        <img src="./images/payment icons/american exp.jpg" width="50" height="50" alt="AMERICAN EXPRESS logo" class="downloads">
+        <img src="./images/payment icons/discover.jpg" width="50" height="50" alt="DISCOVER logo" class="image">
+
+      </div>
+      <br><br>
+
+     <!-- add a form-->
+      <form>
+        <!-- add a cardholder name -->
+        <label for="cardholder name">Cardholder Name:</label>
+        <input type="text" id="cardholder name" name="cardholder name" required placeholder="Enter Name"> <br><br>
+
+        <!-- add a card number -->
+        <label for="card number">Card Number:</label>
+        <input type="text" id="card number" name="card number" required placeholder="Enter number"> <br><br>
+
+        <!-- add a expires date -->
+        <label for="expires">Expires (M/Y):</label>
+        <input type="text" id="expires" name="expires" placeholder="MM/YY" required> <br><br>
+
+        <!-- add a cvv code-->
+        <label for="cvv code">CVV Code:</label>
+        <input type="text" id="cvv code" name="cvv code" required> <br><br>
+
+     
+        <button class="submit">Pay</button>
+        <button class=" cancel-button">Cancel</button>
+     
+      </form>
+    </div>
+
+
+    
+    <footer>
+        <div class="footer">
+            <div class="left">
+                <button onclick="document.location='home.html'">Home</button>
+                <button onclick="document.location='apps.html'">Apps</button>
+                <button onclick="document.location='games.html'">Games</button>
+                <button onclick="document.location='movies.html'">Movies</button>
+            </div>
+            <div class="right">
+                <button onclick="document.location='profile.html'">Profile</button>
+                <button onclick="document.location='Settings.html'">Settings</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

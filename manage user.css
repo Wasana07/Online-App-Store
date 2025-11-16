@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('images/home background.jpg');
+    background-position: center;
+    background-size: cover;
+
+    /* background-color: darkgray; */
+}
+
+form{
+    /* background-color: rgb(92, 55, 55); */
+    align-items: center;
+    width: 40%;
+    height: 370px;
+    text-align: center;
+    margin: 60px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: -1px 5px 15px black;
+    opacity: 1;
+    backdrop-filter: blur(30px);
+    margin-top: 15px;
+}
+
+form h2{
+
+    padding: 10px;
+}
+
+form input{
+    padding: 10px;
+    margin: 5px;
+    width: 95%;
+    border-radius: 5px;
+}
+
+.adduserbtn{
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: 30%;
+    font-size: 20px;
+}
+
+.adduserbtn:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.updateuserbtn{
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: 50%;
+}
+
+.updateuserbtn:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+table{
+    width: 80%;
+    margin: 10px auto;
+    margin-bottom: 30px;
+    /* background-color: rgb(64, 69, 74); */
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 10px;
+    font-size: larger;
+    color: white;
+    opacity: 1;
+    backdrop-filter: blur(100px);
+    box-shadow: -1px 5px 15px black;
+}
+
+table th,td{
+
+    border: 3px solid black;
+    height: 50px;
+}
+
+table th{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+table td{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.editbtn{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: green;
+    cursor: pointer;
+}
+
+.editbtn a{
+    color: white;
+    text-decoration: none;
+}
+
+.editbtn:hover{
+    scale: 1.1;
+}
+
+.deletebtn{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.deletebtn a{
+    color: white;
+    text-decoration: none;
+}
+
+.deletebtn:hover{
+    scale: 1.1;
+}
+
+.tabletopic{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: -25px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.back-btn{
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+.back-btn:hover{
+
+    cursor: pointer;
+    scale: 1.1;
+}

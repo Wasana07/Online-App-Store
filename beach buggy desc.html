@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Store</title>
+    <link rel="stylesheet" href="./beach buggy desc.css">
+    <link rel="stylesheet" href="./beach buggy main.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+           <img src="./images/Plus store logo/logo.jpeg" alt="App Store Logo">
+        </div>
+        <div class="app-name">
+            <h1>Plus Store</h1>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search for apps...">
+        </div>
+        <div class="auth-buttons">
+            <button class="sign-in" onclick="document.location='sign-in.html'">Sign In</button> 
+            <button class="sign-up" onclick="document.location='sign up.html'">Sign Up</button>
+        </div>
+    </header>
+    
+    <br>
+    <br>
+    <main>
+
+
+
+
+        <!-- App Details Section -->
+        <section class="app-details">
+        
+            <div class="app-meta">
+                <div class="app-image">
+                    <img src="./images/Game icons/beach buggy.png" alt="App Icon">
+                </div>
+                <div class="rating-size">
+                    <div class="rating">Rating<br><span class ="rate">4.0</span> <span class="stars">★★★★☆</span></div>
+                    <div class="size">Size</span><br><span class="Asize">380</span><br><span class="mb">MB</span></div> 
+                </div>
+                <div class="name">Beach Buggy Racing</div>
+                <button class="install-btn" onclick="document.location='https://apps.apple.com/us/app/beach-buggy-racing/id882119723'">Install</button>
+                <button class="plus-btn">+</button>
+            </div>
+
+
+
+
+            <!-- Description Section -->
+            <div class="description">
+                <h3>Description</h3>
+                <p>Drive into an action-packed, surprise-filled world of off-road kart racing mayhem! Race against a field of rival drivers, each with unique personalities and special abilities. Build a collection of crazy powerups, like Dodgeball Frenzy, Fireball, and Oil Slick. Unlock and upgrade a variety of cars, from dune buggies to monster trucks. Test your skills in 6 different game modes on 15 imaginative 3D race tracks, against a pack of tropical-loving rivals with a serious case of road rage!</p>
+            </div>
+        </section>
+        
+        <!-- Screenshots and Reviews Section -->
+        <section class="cmnt-section">
+
+
+            <!-- Ratings and Reviews Section -->
+            <div class="addcmnt">
+                <h3>Add Comment :</h3>
+                <div>
+                    <form action="#" method="POST">
+                        <br>
+                        <span>App Name : </span>
+                        <input type="text" name="userName" class="username_r">
+                        <br><br>
+                        <span>Comment : </span> <br><br>
+                        <textarea name="review" cols="70" rows="10" id=""></textarea><br><br>
+                        <button class="cmnt-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+
+            <!-- Screenshots Section -->
+            <div class="cmnt-list">
+                <h3>All Comments :</h3>
+                <div class="slideshow-container">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="left">
+                <button onclick="document.location='home.html'">Home</button>
+                <button onclick="document.location='apps.html'">Apps</button>
+                <button onclick="document.location='games.html'">Games</button>
+                <button onclick="document.location='movies.html'">Movies</button>
+            </div>
+            <div class="right">
+                <button onclick="document.location='profile.html'">Profile</button>
+                <button onclick="document.location='Settings.html'">Settings</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url('home\ background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table{
+    width:70%;
+    margin:80px auto;
+    border: 2px solid black;
+    border-collapse:collapse;
+    box-shadow: -1px 5px 15px rgb(0, 0, 0);
+    border-radius:10px;
+    opacity: 1;
+    backdrop-filter: blur(30px);
+    color: white;
+   
+}
+
+th,td{
+    padding:20px;
+    border: 2px solid black;
+}
+
+.table-topic{
+
+    margin-left: 700px;
+    margin-top: 50px;
+    color: white;
+}
+
+.addtask-btn a{
+
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 30px;
+    padding: 8px;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.addtask-btn a:hover{
+
+    scale: 1.1;
+}
+
+.updatebtn{
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+}
+
+.updatebtn:hover{
+    scale: 1.1;
+}
+
+.deletebtn{
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+}
+
+.deletebtn:hover{
+    scale: 1.1;
+}
+
+
+.back-btn{
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+.back-btn:hover{
+
+    cursor: pointer;
+    scale: 1.1;
+}

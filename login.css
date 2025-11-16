@@ -1,0 +1,72 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f7f7f7; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('./images/home\ background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Style for the form container */
+form {
+    /* background-color: #ffffff; */
+    padding: 110px;
+    border-radius: 10px;
+    box-shadow: -1px 5px 15px black;
+    width: 300px;
+    text-align: center;
+    opacity: 1;
+    backdrop-filter: blur(30px);
+}
+
+/* Style for the input fields */
+input[type="text"], input[type="password"] {
+    width: 130%;
+    padding: 10px;
+    margin: 8px 0;
+    margin-left: -45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+/* Change button color on hover */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style for labels and heading */
+label {
+    font-weight: bold;
+    color: white;
+}
+
+h2{
+
+    position: absolute;
+    margin-top: -80px;
+    color: white;
+    margin-left: 110px;
+    font-size:xx-large;
+    font-family: cursive;
+    font-weight: bolder;
+}
